@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171313">
+<title>Check in 25 — Birthday Party</title>
+<style>
+:root{--black:#171313;--panel:#211b1a;--white:#f4f0e9;--burgundy:#762b37;--brown:#8a6552;--muted:#b8aaa1;--line:#51413d}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;padding:14px;color:var(--white);background:#171313;font-family:Arial,Helvetica,sans-serif;position:relative;isolation:isolate}
+body:before{content:"";position:fixed;inset:0;z-index:-2;background-color:#55232b;background-image:repeating-linear-gradient(0deg,transparent 0 21px,rgba(12,10,10,.92) 21px 31px,transparent 31px 47px),repeating-linear-gradient(90deg,transparent 0 21px,rgba(12,10,10,.92) 21px 31px,transparent 31px 47px),repeating-linear-gradient(0deg,transparent 0 91px,rgba(190,157,137,.48) 91px 95px,transparent 95px 102px),repeating-linear-gradient(90deg,transparent 0 91px,rgba(190,157,137,.48) 91px 95px,transparent 95px 102px);background-size:102px 102px;opacity:.72}
+body:after{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(15,12,12,.42),rgba(15,12,12,.9) 38%,#171313 100%)}
+main{width:min(100%,650px);min-height:calc(100vh - 28px);margin:auto;padding:22px clamp(18px,6vw,42px) 24px;border:1px solid rgba(244,240,233,.25);background:rgba(23,19,19,.96);position:relative;overflow:hidden}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:10px;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+.tag{background:var(--burgundy);color:var(--white);padding:7px 9px;transform:rotate(-2deg)}
+.hero{padding:clamp(48px,10vw,78px) 0 30px}
+.stamp{color:#c69a83;font-size:11px;font-weight:900;letter-spacing:.23em;text-transform:uppercase;margin-bottom:17px}
+h1{font-size:clamp(58px,15vw,108px);line-height:.78;letter-spacing:-.09em;text-transform:uppercase;margin:0;font-weight:1000}
+h1 span{display:block;color:var(--burgundy);text-shadow:3px 3px 0 #d6c9bd}
+.herobottom{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-top:29px}
+.herobottom p{max-width:280px;margin:0;color:#d0c8c0;font-size:14px;line-height:1.5}
+.date{border:2px solid var(--brown);color:#d8b9a7;font-size:12px;line-height:1.05;font-weight:1000;padding:10px;text-align:center;transform:rotate(5deg);flex-shrink:0}
+.stripe{height:7px;margin:7px 0 24px;background:repeating-linear-gradient(135deg,var(--burgundy) 0 10px,#d8c9bd 10px 12px,transparent 12px 21px)}
+.intro{color:var(--muted);font-size:10px;font-weight:900;letter-spacing:.17em;text-transform:uppercase;margin:0 0 14px}
+details{border:1px solid var(--line);background:var(--panel);margin-bottom:10px}
+summary{list-style:none;display:flex;align-items:center;justify-content:space-between;padding:18px 16px;cursor:pointer;color:var(--white);font-size:clamp(17px,4.5vw,22px);font-weight:1000;text-transform:uppercase;letter-spacing:-.03em}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:#c69a83;font-size:24px;font-weight:400;transition:transform .2s}
+details[open] summary{color:#d8b9a7}
+details[open] summary:after{transform:rotate(45deg)}
+summary:focus-visible,.map-link:focus-visible{outline:2px solid #d8b9a7;outline-offset:3px}
+.num{color:#c69a83;font-size:11px;letter-spacing:.12em;margin-right:10px}
+.panel{border-top:1px solid var(--line);padding:18px 16px 21px}
+.panel p{margin:0;font-size:clamp(21px,5.4vw,29px);line-height:1.12;font-weight:1000;letter-spacing:-.045em;text-transform:uppercase}
+.panel em{color:#c69a83;font-style:normal}
+.panel .note{margin-top:10px;color:var(--muted);font:12px/1.5 Arial,sans-serif;letter-spacing:0;text-transform:none}
+.map-link{display:inline-block;margin-top:15px;padding:11px 14px;background:var(--burgundy);color:var(--white);text-decoration:none;font-size:11px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;border:1px solid #a36d70}
+.map-link:hover{background:var(--brown)}
+footer{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:28px;padding-top:17px;border-top:1px solid var(--line);color:var(--muted);font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+footer strong,.scribble{color:#d8b9a7}.scribble{font-weight:1000;transform:rotate(-5deg)}
+</style>
+</head>
+<body><main>
+<div class="top"><span>Private party / No. 25</span><span class="tag">You’re on the list</span></div>
+<header class="hero"><div class="stamp">Birthday takeover • 28.11</div><h1>Check in<br><span>25.</span></h1><div class="herobottom"><p>Un capannone. La crew giusta. Una notte da ricordare. Entra in modalità festa.</p><div class="date">28<br>NOV<br>21:30+</div></div></header>
+<div class="stripe" aria-hidden="true"></div><p class="intro">Tutte le info. Zero sbatti.</p>
+<section aria-label="Informazioni sulla festa">
+<details open><summary><span><span class="num">01 /</span>Quando</span></summary><div class="panel"><p>28 novembre<br><em>dalle 21:30</em> in poi</p><p class="note">Arriva quando vuoi. Ma non fare il fantasma.</p></div></details>
+<details><summary><span><span class="num">02 /</span>Dove</span></summary><div class="panel"><p><em>Al Magazzino.</em><br>Ci vediamo lì.</p><p class="note">Capannone mode: ON. Tocca qui sotto per raggiungerci.</p><a class="map-link" href="https://maps.app.goo.gl/Jhp9ZDUviBHenxVv9?g_st=iw" target="_blank" rel="noopener noreferrer">Apri la mappa ↗</a></div></details>
+<details><summary><span><span class="num">03 /</span>Dress code</span></summary><div class="panel"><p><em>Check / tartan.</em><br>Per tutti.</p><p class="note">Uomini e donne: quadretti obbligatori. Niente scuse.</p></div></details>
+</section>
+<footer><span><strong>CHECK IN 25</strong> / Save the date</span><span class="scribble">MAKE SOME NOISE ↗</span></footer>
+</main></body></html>
